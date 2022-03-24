@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class RateDiscountPolicyTest {
 
-    DiscountPolicy discountPolicy = new RateDiscountPolicy();
+    DiscountPolicy discountPolicy;
 
     @Test
     @DisplayName("VIP는 할인이 적용되어야 한다")
