@@ -1,5 +1,9 @@
 package hello.core.member;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
+
 public class Member {
     private Long id;
     private String name;
